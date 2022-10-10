@@ -22,4 +22,5 @@ def main(a):
         s="negative even number"
     if a==0:
         s="the number is zero"
-    return
+    return s
+print (main(3))
