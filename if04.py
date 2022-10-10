@@ -8,15 +8,16 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
-    if a>0 and b>0 and c>0:
-        s=3
-    if a>0 and b>0 and c<0 or a>0 and b<0 and c>0 or a<0 and b>0 and c>0:
-        s=2
-    if a>0 and b<0 and c>0 or a<0 and b>0 and c>0 or a>0 and b>0 and c<0:
-        s=1
-    if a<=0 and b<=0 and c<=0:
-        s=0
+    counter=0
+    if a>0 :
+        counter+=1
+        
+    if b>0:
+        counter+=1
+    if c>0:
+        counter+=1
 
 
-    return s
+
+    return counter
 print (main(1,2,3))
