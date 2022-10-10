@@ -13,4 +13,17 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    return
+    if 0<temp<11:
+        s="Very Cold"
+    if temp==0:
+        s="Freezing"
+    if 10<temp<21:
+        s="Cold"
+    if 20<temp<31:
+        s="Normal"
+    if 30<temp<41:
+        s="Hot"
+    if temp>40:
+        s="Very Hot"
+    return s
+print (main(60))
