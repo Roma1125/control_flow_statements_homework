@@ -14,6 +14,8 @@ def main(a,b,c):
         s=2
     if a>0 and b<0 and c>0 or a<0 and b>0 and c>0 or a>0 and b>0 and c<0:
         s=1
+    if a<0 and b<0 and c<0:
+        s=0
 
 
     return s
