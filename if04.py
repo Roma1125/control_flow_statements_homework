@@ -10,9 +10,9 @@ def main(a,b,c):
     """
     if a>0 and b>0 and c>0:
         s=3
-    elif a>0 and b>0 and c<0 or a>0 and b<0 and c>0 or a<0 and b>0 and c>0:
+    if a>0 and b>0 and c<0 or a>0 and b<0 and c>0 or a<0 and b>0 and c>0:
         s=2
-    elif a>0 and b<0 and c>0 or a<0 and b>0 and c>0 or a>0 and b>0 and c<0:
+    if a>0 and b<0 and c>0 or a<0 and b>0 and c>0 or a>0 and b>0 and c<0:
         s=1
 
 
