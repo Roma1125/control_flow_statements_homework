@@ -8,9 +8,9 @@ def main(a):
     """
     if a>0:
         a+=1
-    if a==0 : 
-        a+=10
-    else :
+    elif a<0 : 
         a-=2
+    else :
+        a+=10
     return a
 print (main(0))
